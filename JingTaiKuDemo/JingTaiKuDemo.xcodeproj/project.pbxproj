@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F27D5E661B2BE57100253BA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F27D5E651B2BE57100253BA7 /* main.m */; };
+		F27D5E691B2BE57100253BA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F27D5E681B2BE57100253BA7 /* AppDelegate.m */; };
+		F27D5E6C1B2BE57100253BA7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F27D5E6B1B2BE57100253BA7 /* ViewController.m */; };
+		F27D5E6F1B2BE57100253BA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27D5E6D1B2BE57100253BA7 /* Main.storyboard */; };
+		F27D5E711B2BE57100253BA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27D5E701B2BE57100253BA7 /* Images.xcassets */; };
+		F27D5E741B2BE57100253BA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F27D5E721B2BE57100253BA7 /* LaunchScreen.xib */; };
+		F27D5E801B2BE57100253BA7 /* JingTaiKuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F27D5E7F1B2BE57100253BA7 /* JingTaiKuDemoTests.m */; };
+		F27D5E8C1B2BE5C500253BA7 /* libJingTaiKu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F27D5E8B1B2BE5C500253BA7 /* libJingTaiKu.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27D5E7A1B2BE57100253BA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27D5E581B2BE57100253BA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27D5E5F1B2BE57100253BA7;
+			remoteInfo = JingTaiKuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F27D5E601B2BE57100253BA7 /* JingTaiKuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JingTaiKuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27D5E641B2BE57100253BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27D5E651B2BE57100253BA7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F27D5E671B2BE57100253BA7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F27D5E681B2BE57100253BA7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F27D5E6A1B2BE57100253BA7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F27D5E6B1B2BE57100253BA7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F27D5E6E1B2BE57100253BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F27D5E701B2BE57100253BA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F27D5E731B2BE57100253BA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F27D5E791B2BE57100253BA7 /* JingTaiKuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JingTaiKuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27D5E7E1B2BE57100253BA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27D5E7F1B2BE57100253BA7 /* JingTaiKuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JingTaiKuDemoTests.m; sourceTree = "<group>"; };
+		F27D5E8A1B2BE5C500253BA7 /* JingTaiKu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JingTaiKu.h; sourceTree = "<group>"; };
+		F27D5E8B1B2BE5C500253BA7 /* libJingTaiKu.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libJingTaiKu.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27D5E5D1B2BE57100253BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27D5E8C1B2BE5C500253BA7 /* libJingTaiKu.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27D5E761B2BE57100253BA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F27D5E571B2BE57100253BA7 = {
+			isa = PBXGroup;
+			children = (
+				F27D5E621B2BE57100253BA7 /* JingTaiKuDemo */,
+				F27D5E7C1B2BE57100253BA7 /* JingTaiKuDemoTests */,
+				F27D5E611B2BE57100253BA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F27D5E611B2BE57100253BA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E601B2BE57100253BA7 /* JingTaiKuDemo.app */,
+				F27D5E791B2BE57100253BA7 /* JingTaiKuDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27D5E621B2BE57100253BA7 /* JingTaiKuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E891B2BE5C500253BA7 /* JingTaiKu */,
+				F27D5E671B2BE57100253BA7 /* AppDelegate.h */,
+				F27D5E681B2BE57100253BA7 /* AppDelegate.m */,
+				F27D5E6A1B2BE57100253BA7 /* ViewController.h */,
+				F27D5E6B1B2BE57100253BA7 /* ViewController.m */,
+				F27D5E6D1B2BE57100253BA7 /* Main.storyboard */,
+				F27D5E701B2BE57100253BA7 /* Images.xcassets */,
+				F27D5E721B2BE57100253BA7 /* LaunchScreen.xib */,
+				F27D5E631B2BE57100253BA7 /* Supporting Files */,
+			);
+			path = JingTaiKuDemo;
+			sourceTree = "<group>";
+		};
+		F27D5E631B2BE57100253BA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E641B2BE57100253BA7 /* Info.plist */,
+				F27D5E651B2BE57100253BA7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F27D5E7C1B2BE57100253BA7 /* JingTaiKuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E7F1B2BE57100253BA7 /* JingTaiKuDemoTests.m */,
+				F27D5E7D1B2BE57100253BA7 /* Supporting Files */,
+			);
+			path = JingTaiKuDemoTests;
+			sourceTree = "<group>";
+		};
+		F27D5E7D1B2BE57100253BA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E7E1B2BE57100253BA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F27D5E891B2BE5C500253BA7 /* JingTaiKu */ = {
+			isa = PBXGroup;
+			children = (
+				F27D5E8A1B2BE5C500253BA7 /* JingTaiKu.h */,
+				F27D5E8B1B2BE5C500253BA7 /* libJingTaiKu.a */,
+			);
+			path = JingTaiKu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27D5E5F1B2BE57100253BA7 /* JingTaiKuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27D5E831B2BE57100253BA7 /* Build configuration list for PBXNativeTarget "JingTaiKuDemo" */;
+			buildPhases = (
+				F27D5E5C1B2BE57100253BA7 /* Sources */,
+				F27D5E5D1B2BE57100253BA7 /* Frameworks */,
+				F27D5E5E1B2BE57100253BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JingTaiKuDemo;
+			productName = JingTaiKuDemo;
+			productReference = F27D5E601B2BE57100253BA7 /* JingTaiKuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27D5E781B2BE57100253BA7 /* JingTaiKuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27D5E861B2BE57100253BA7 /* Build configuration list for PBXNativeTarget "JingTaiKuDemoTests" */;
+			buildPhases = (
+				F27D5E751B2BE57100253BA7 /* Sources */,
+				F27D5E761B2BE57100253BA7 /* Frameworks */,
+				F27D5E771B2BE57100253BA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27D5E7B1B2BE57100253BA7 /* PBXTargetDependency */,
+			);
+			name = JingTaiKuDemoTests;
+			productName = JingTaiKuDemoTests;
+			productReference = F27D5E791B2BE57100253BA7 /* JingTaiKuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27D5E581B2BE57100253BA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = kitegkp;
+				TargetAttributes = {
+					F27D5E5F1B2BE57100253BA7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F27D5E781B2BE57100253BA7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F27D5E5F1B2BE57100253BA7;
+					};
+				};
+			};
+			buildConfigurationList = F27D5E5B1B2BE57100253BA7 /* Build configuration list for PBXProject "JingTaiKuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F27D5E571B2BE57100253BA7;
+			productRefGroup = F27D5E611B2BE57100253BA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27D5E5F1B2BE57100253BA7 /* JingTaiKuDemo */,
+				F27D5E781B2BE57100253BA7 /* JingTaiKuDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27D5E5E1B2BE57100253BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27D5E6F1B2BE57100253BA7 /* Main.storyboard in Resources */,
+				F27D5E741B2BE57100253BA7 /* LaunchScreen.xib in Resources */,
+				F27D5E711B2BE57100253BA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27D5E771B2BE57100253BA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27D5E5C1B2BE57100253BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27D5E6C1B2BE57100253BA7 /* ViewController.m in Sources */,
+				F27D5E691B2BE57100253BA7 /* AppDelegate.m in Sources */,
+				F27D5E661B2BE57100253BA7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27D5E751B2BE57100253BA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27D5E801B2BE57100253BA7 /* JingTaiKuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27D5E7B1B2BE57100253BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27D5E5F1B2BE57100253BA7 /* JingTaiKuDemo */;
+			targetProxy = F27D5E7A1B2BE57100253BA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F27D5E6D1B2BE57100253BA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27D5E6E1B2BE57100253BA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F27D5E721B2BE57100253BA7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27D5E731B2BE57100253BA7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F27D5E811B2BE57100253BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F27D5E821B2BE57100253BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27D5E841B2BE57100253BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JingTaiKuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JingTaiKuDemo/JingTaiKu",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F27D5E851B2BE57100253BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JingTaiKuDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JingTaiKuDemo/JingTaiKu",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F27D5E871B2BE57100253BA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JingTaiKuDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingTaiKuDemo.app/JingTaiKuDemo";
+			};
+			name = Debug;
+		};
+		F27D5E881B2BE57100253BA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JingTaiKuDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JingTaiKuDemo.app/JingTaiKuDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27D5E5B1B2BE57100253BA7 /* Build configuration list for PBXProject "JingTaiKuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27D5E811B2BE57100253BA7 /* Debug */,
+				F27D5E821B2BE57100253BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27D5E831B2BE57100253BA7 /* Build configuration list for PBXNativeTarget "JingTaiKuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27D5E841B2BE57100253BA7 /* Debug */,
+				F27D5E851B2BE57100253BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27D5E861B2BE57100253BA7 /* Build configuration list for PBXNativeTarget "JingTaiKuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27D5E871B2BE57100253BA7 /* Debug */,
+				F27D5E881B2BE57100253BA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27D5E581B2BE57100253BA7 /* Project object */;
+}
